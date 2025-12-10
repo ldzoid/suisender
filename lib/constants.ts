@@ -20,6 +20,6 @@ export const SUI_COLORS = {
 } as const;
 
 // App metadata
-export const APP_NAME = 'SuiSender';
-export const APP_DESCRIPTION = 'Free, open-source multisender for Sui blockchain. Send SUI and tokens to multiple addresses in one transaction.';
+export const APP_NAME = 'SuiSender - Free Sui Multisender';
+export const APP_DESCRIPTION = 'Free Sui multisender tool for batch sending SUI and tokens. Send crypto to multiple addresses in one transaction. Zero fees, open source Sui token multisend.';
 export const APP_URL = 'https://suisender.com';

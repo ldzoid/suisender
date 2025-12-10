@@ -1,7 +1,27 @@
 {
   "name": "suisender",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Free Sui multisender tool for batch sending SUI and tokens to multiple addresses. Zero fees, open source.",
+  "keywords": [
+    "sui",
+    "sui-sender",
+    "multisender",
+    "sui-multisender",
+    "sui-blockchain",
+    "batch-transfer",
+    "bulk-send",
+    "airdrop",
+    "crypto",
+    "web3"
+  ],
+  "author": "SuiSender",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ldzoid/suisender"
+  },
+  "homepage": "https://suisender.com",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -23,16 +23,16 @@ export default function HomePage() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-sui-text-primary mb-6">
-              Send SUI & Tokens to
+              Free Sui Multisender
               <br />
               <span className="bg-gradient-to-r from-[#6fbcf0] to-[#4da2da] bg-clip-text text-transparent">
-                Multiple Addresses
+                Batch Send SUI & Tokens
               </span>
             </h1>
             
             <p className="text-xl text-sui-text-secondary mb-10 max-w-2xl mx-auto">
-              The easiest way to distribute SUI and tokens on the Sui blockchain. 
-              Batch send to unlimited addresses in seconds.
+              Free Sui token multisend tool. Send SUI and custom tokens to multiple addresses in one transaction. 
+              Zero fees, lightning fast bulk transfers on Sui blockchain.
             </p>
 
             {currentAccount ? (
@@ -57,7 +57,7 @@ export default function HomePage() {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-sui-text-primary mb-12">
-              Why Use SuiSender?
+              Best Free Sui Multisender Tool
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -66,10 +66,10 @@ export default function HomePage() {
                   <Zap className="w-8 h-8 text-[#4da2da]" />
                 </div>
                 <h3 className="text-xl font-semibold text-sui-text-primary mb-2">
-                  Lightning Fast
+                  Lightning Fast Batch Transfers
                 </h3>
                 <p className="text-sui-text-secondary">
-                  Send to hundreds of addresses in a single transaction. Save time and gas fees.
+                  Sui token multisend to hundreds of addresses in one transaction. Save time and gas with bulk sending.
                 </p>
               </div>
 
@@ -78,10 +78,10 @@ export default function HomePage() {
                   <Shield className="w-8 h-8 text-[#4da2da]" />
                 </div>
                 <h3 className="text-xl font-semibold text-sui-text-primary mb-2">
-                  100% Free
+                  100% Free Multisender
                 </h3>
                 <p className="text-sui-text-secondary">
-                  No platform fees. No middlemen. Only pay standard Sui network gas fees.
+                  Free Sui sender with zero platform fees. No middlemen. Only pay standard Sui network gas.
                 </p>
               </div>
 
@@ -94,6 +94,46 @@ export default function HomePage() {
                 </h3>
                 <p className="text-sui-text-secondary">
                   Fully transparent and auditable. Contribute or fork on GitHub.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-[#6fbcf0]/5">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center text-sui-text-primary mb-12">
+              Frequently Asked Questions
+            </h2>
+            
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-sui-border hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-sui-text-primary mb-3">
+                  What is a Sui multisender?
+                </h3>
+                <p className="text-sui-text-secondary leading-relaxed">
+                  A tool that lets you send SUI or custom tokens to multiple wallet addresses in a single transaction, 
+                  saving time and reducing gas fees.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-sui-border hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-sui-text-primary mb-3">
+                  How much does it cost?
+                </h3>
+                <p className="text-sui-text-secondary leading-relaxed">
+                  Completely free with zero platform fees. You only pay standard Sui network gas fees.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-sui-border hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-sui-text-primary mb-3">
+                  Is it safe?
+                </h3>
+                <p className="text-sui-text-secondary leading-relaxed">
+                  Yes! Completely non-custodial - you maintain full control of your wallet. The code is open source 
+                  and auditable on GitHub.
                 </p>
               </div>
             </div>

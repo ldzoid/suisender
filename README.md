@@ -1,8 +1,8 @@
-# 🚀 Sui Multisender
+# 🚀 SuiSender - Free Sui Multisender
 
 <div align="center">
 
-**Send SUI and custom tokens to multiple recipients in a single transaction**
+**Free Sui multisender tool for batch sending SUI and tokens to multiple addresses**
 
 [Live Demo](https://suisender.com) · [Report Bug](https://github.com/ldzoid/suisender/issues)
 
@@ -10,16 +10,18 @@
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**Keywords:** sui sender · free sui multisender · sui token multisend · sui bulk sender · sui airdrop tool
+
 </div>
 
 ## ✨ Features
 
-- ⚡ **Batch send** to hundreds of addresses in one transaction
-- 💰 **Zero fees** - you only pay network gas
-- 💎 Support for **SUI and custom tokens**
-- 📊 **CSV upload** for bulk recipient lists
-- 🔍 **Balance validation** before sending
-- 🔐 **Non-custodial** - connect any Sui wallet
+- ⚡ **Batch send** SUI and tokens to hundreds of addresses in one transaction
+- 💰 **100% Free** - zero platform fees, you only pay Sui network gas
+- 💎 Support for **native SUI and all custom tokens** on Sui blockchain
+- 📊 **CSV upload** for easy bulk recipient management
+- 🔍 **Balance validation** and gas estimation before sending
+- 🔐 **Non-custodial** - works with any Sui wallet (Sui Wallet, Suiet, Ethos, etc.)
 
 ## 🚀 Quick Start
 
