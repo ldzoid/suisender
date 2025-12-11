@@ -4,6 +4,7 @@ import "./globals.css";
 import WalletProvider from "@/providers/WalletProvider";
 import { Toaster } from "sonner";
 import { APP_NAME, APP_DESCRIPTION, APP_URL } from "@/lib/constants";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -116,6 +117,7 @@ export default function RootLayout({
           {children}
           <Toaster position="top-right" richColors />
         </WalletProvider>
+        <Analytics />
       </body>
     </html>
   );
